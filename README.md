@@ -16,13 +16,13 @@ Setup:
 
 #Dependencies install automatically on first run.
 
-...Linux
+🐧...Linux
 Right click "run.sh" run as program
 or
 chmod +x run.sh
 ./run.sh
 
-...Windows
+🪟...Windows
 Right click "run.bat" as administrator
 
 
