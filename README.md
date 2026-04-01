@@ -7,7 +7,6 @@ A local Discord audiobook player with a GUI for controlling playback, jump posit
 Features:
 -Play, pause, and resume audio in Discord voice channels
 -Jump ±1 minute or set a custom timestamp
--Displays audiobook cover art
 -Simple desktop GUI controller
 -Automatic dependency setup via launch scripts
 -Cross-platform (Linux + Windows)
@@ -18,13 +17,9 @@ Setup:
 
 🐧...Linux
 Right click "run.sh" run as program
-or
-chmod +x run.sh
-./run.sh
 
 🪟...Windows
 Right click "run.bat" as administrator
-
 
 The launcher will:
 -Create a virtual environment if missing
@@ -67,17 +62,12 @@ Choose your server and authorize
 
 The bot will now be able to join voice channels and play audio.
 
-Audio Requirements
-ffmpeg must be available:
-Installed globally or
-Included inside the project folder (Windows supported)
-
 Supported formats:
 .m4b
 .mp3
 .m4a
 
-License
+License:
 MIT License © 2026 Samuel Darrah
 You are free to:
 Use
@@ -85,3 +75,5 @@ Modify
 Redistribute
 Reupload modified versions
 Please retain attribution to the original author.
+
+Notes: The files quite large becasue it contains the ffmpeg library.
