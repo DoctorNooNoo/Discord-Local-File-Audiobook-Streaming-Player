@@ -1,3 +1,5 @@
+Vibe Coded ASF #But hey! it towrks good :)
+
 Audiobook Controller
 
 A local Discord audiobook player with a GUI for controlling playback, jump positions, and viewing cover art. Works on Linux and Windows.
